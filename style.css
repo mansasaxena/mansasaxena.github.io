@@ -110,10 +110,8 @@ h2 { margin: 0 0 29px; color: #474747; font-size: 29px; line-height: 1.3; font-w
 .paper-expanded[hidden] { display: none; }
 .paper-expanded p { color: #555; font-size: 16px; line-height: 1.69; margin: 0; }
 
-/* Fellowships and teaching */
+/* Teaching */
 .supplementary-section { border-top: 1px solid var(--border); padding-top: 31px; margin-top: 2px; }
-.grant { display: grid; grid-template-columns: minmax(0,1fr) 90px; gap: 18px; padding: 6px 0; font-size: 16px; color: #555; line-height: 1.5; }
-.grant-year { color: #707070; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 #teaching { margin-top: 30px; }
 .teaching-item { margin-bottom: 25px; }
 .teaching-item h3 { font-size: 18px; font-weight: 700; color: var(--heading); margin: 0; }
@@ -138,5 +136,4 @@ h2 { margin: 0 0 29px; color: #474747; font-size: 29px; line-height: 1.3; font-w
   .profile-affiliation { font-size: 13px; }
   .profile-contact, .profile-cv { font-size: 12px; }
   h2 { font-size: 25px; }
-  .grant { grid-template-columns: minmax(0,1fr) 75px; gap: 9px; font-size: 14px; }
 }
