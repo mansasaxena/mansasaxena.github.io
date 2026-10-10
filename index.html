@@ -3,50 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Mansa Saxena</title>
+  <meta name="description" content="Mansa Saxena is a PhD candidate in Economics at Northwestern University. Research in development economics and labor economics.">
+  <title>Mansa Saxena | Northwestern University</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="home-layout">
 
-  <header>
-    <nav class="navbar">
-      <a class="site-name" href="index.html">Mansa Saxena</a>
-
-      <div class="nav-links">
-        <a href="research.html">Research</a>
-        <a href="cv.html">CV</a>
-      </div>
-    </nav>
-  </header>
-
-  <main class="home-layout">
-
-    <aside class="profile">
+    <!-- Left column. The filename is unchanged: this uses your current website photo. -->
+    <aside class="profile" aria-label="Profile and contact information">
       <img src="IMG_5058.jpg" alt="Mansa Saxena" class="profile-photo">
 
-      <h2>Mansa Saxena</h2>
-
-      <p>
+      <h1>Mansa Saxena</h1>
+      <p class="profile-affiliation">
         PhD Candidate in Economics<br>
         Northwestern University
       </p>
+      <p class="profile-contact">
+        <a href="mailto:mansasaxena2027@u.northwestern.edu">mansasaxena2027@u.northwestern.edu</a>
+      </p>
+      <!-- Upload your finalized Northwestern CV at this location to activate the link. -->
+      <p class="profile-cv">
+        <a href="files/Mansa_Saxena_CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+      </p>
     </aside>
 
-    <section class="bio">
-      <h1>Welcome</h1>
+    <main class="main-content">
+      <section class="biography" aria-label="About me">
+        <p>
+          I am a PhD candidate in Economics at Northwestern University.
+          My research interests are in development economics and labor economics.
+          My research examines labor markets, gender, and economic decision-making
+          in developing countries, with a particular interest in the barriers that
+          shape economic opportunities.
+        </p>
+        <p>
+          Previously, I worked as a Research Associate at MIT Sloan and Innovations
+          for Poverty Action. I received my MA in International and Development
+          Economics from Yale University and my BA in Economics from Lady Shri Ram
+          College for Women, University of Delhi.
+        </p>
+        <p class="job-market"><strong>I am on the 2026-27 Job Market.</strong></p>
+      </section>
 
-      <p>
-        Biography coming soon.
-      </p>
+      <section class="research-section" id="research" aria-labelledby="working-heading">
+        <h2 id="working-heading">Working Papers</h2>
 
-      <p>
-    Email: <a href="mailto:mansasaxena2027@u.northwestern.edu">mansasaxena2027@u.northwestern.edu</a>
-    </p>
-    </section>
+        <article class="paper">
+          <div class="paper-heading">
+            <h3>Social Frictions and Job Information Sharing: Experimental Evidence from Informal Labor Markets in India</h3>
+            <span class="paper-label">JOB MARKET PAPER</span>
+          </div>
+          <p class="coauthors">with Vasu Chaudhary</p>
+          <p class="project-status">Draft coming soon!</p>
+          <div class="paper-actions">
+            <a class="paper-button" href="https://www.socialscienceregistry.org/trials/19424" target="_blank" rel="noopener noreferrer">AEA RCT Registry</a>
+            <button type="button" class="paper-button toggle-button" data-target="jmp-presentations" aria-controls="jmp-presentations" aria-expanded="false">Presentations</button>
+          </div>
+          <div class="paper-expanded" id="jmp-presentations" hidden>
+            <p>Development Economics Lunch Workshop, Northwestern University</p>
+          </div>
+        </article>
 
-  </main>
+        <article class="paper">
+          <h3>Distorted Signals and Evaluator Bias: A Two-Stage Experiment on Gendered Hiring in Malawi</h3>
+          <p class="coauthors">with Gabriella Fleischman</p>
+          <div class="paper-actions">
+            <a class="paper-button" href="files/GenderedHiringMalawi.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+            <button type="button" class="paper-button toggle-button" data-target="malawi-abstract" aria-controls="malawi-abstract" aria-expanded="false">Abstract</button>
+            <button type="button" class="paper-button toggle-button" data-target="malawi-presentations" aria-controls="malawi-presentations" aria-expanded="false">Presentations</button>
+          </div>
+          <div class="paper-expanded" id="malawi-abstract" hidden>
+            <p>Female labor force participation is constrained by supply-side frictions, including a lack of qualified female applicants, and demand-side frictions, including biases in hiring decisions. We examine how these distortions interact to affect gender gaps in employment through two experiments conducted in partnership with a firm. The first uses female-directed advertising during a recruitment drive to address supply-side behavioral gender gaps; the second uses a résumé audit study to isolate evaluator biases in hiring. Although the intervention does not affect applicants' objective skills, it unexpectedly reduces female hiring. We find that evaluators place greater weight on noisy signals of soft skills for women than for men, while the recruitment intervention induces lower-ability women to inflate their soft-skill signals. Consequently, evaluators shortlist lower-ability female candidates from treated areas, crowding out higher-ability women. Our estimates suggest that addressing either distorted applicant signals or evaluator bias would close the gender gap in the ability of shortlisted candidates by 51–55%, with only modest additional gains from addressing both.</p>
+          </div>
+          <div class="paper-expanded" id="malawi-presentations" hidden>
+            <p>Northeast Universities Development Consortium (NEUDC) 2025, Advances in Field Experiments 2025, Development Economics Lunch Workshop, Northwestern University</p>
+          </div>
+        </article>
+      </section>
 
+      <section class="research-section" aria-labelledby="progress-heading">
+        <h2 id="progress-heading">Research in Progress</h2>
+
+        <article class="paper">
+          <h3>Bridging the Transition from College to Work: Experimental Evidence from India</h3>
+          <p class="coauthors">with Lori Beaman</p>
+          <p class="project-status">Draft available on request</p>
+          <div class="paper-actions">
+            <button type="button" class="paper-button toggle-button" data-target="college-abstract" aria-controls="college-abstract" aria-expanded="false">Abstract</button>
+          </div>
+          <div class="paper-expanded" id="college-abstract" hidden>
+            <p>Despite rising tertiary enrollment rates, youth unemployment remains high in India, as in many countries. We use a field experiment in two northern Indian states to examine whether limited soft skills in job search and career planning hinder the school-to-work transition. Several years after exposure, training increases the share of young adults in employment, education, or training by 13.3 percentage points (SE = 0.055), relative to a control-group mean of 33.7%. The intervention also increases internship experience, continuing education, and résumé readiness. These findings suggest that light-touch employability support can improve post-college access to the labor market.</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <h3>Inspiring Female Micro-Entrepreneurs to Adopt Mobile Money in Pakistan</h3>
+          <p class="coauthors">with Essoyodou Marie Laure Pello Sode and Mahniya Zafar</p>
+          <p class="project-status">Pilot complete</p>
+          <div class="paper-actions">
+            <a class="paper-button" href="https://grp.cepr.org/pedl/projects/addressing-barriers-mobile-money-adoption-among-female-micro-entrepreneurs-pakistan" target="_blank" rel="noopener noreferrer">Project Page</a>
+            <button type="button" class="paper-button toggle-button" data-target="pakistan-abstract" aria-controls="pakistan-abstract" aria-expanded="false">Abstract</button>
+            <button type="button" class="paper-button toggle-button" data-target="pakistan-presentations" aria-controls="pakistan-presentations" aria-expanded="false">Presentations</button>
+          </div>
+          <div class="paper-expanded" id="pakistan-abstract" hidden>
+            <p>Digital financial technologies can lower transaction costs and expand access to financial services, yet their adoption and productive use remain limited among women entrepreneurs. We examine whether practical information about mobile money and exposure to relatable female entrepreneurs who successfully use it in their businesses can increase adoption and use. We pilot these interventions with 299 female micro-entrepreneurs affiliated with a microfinance institution in Lahore, Pakistan. Client groups were randomly assigned to receive either an informational intervention explaining how to use mobile money, with optional hands-on assistance, or the same intervention supplemented by a role-model video featuring successful female entrepreneurs from the same network. Providing information increased registration of mobile money accounts in women's own names by 15 percentage points, relative to a control-group mean of 21%, and reduced perceived fraud risk. Combining information with a role model increased business-related mobile money use by 11 percentage points and transactions with customers or suppliers by 9 percentage points. These findings suggest that informational barriers constrain initial adoption, while trust and perceived benefits may shape subsequent business use.</p>
+          </div>
+          <div class="paper-expanded" id="pakistan-presentations" hidden>
+            <p>PEDL Young Scholars Matchmaking Workshop 2025</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <h3>Perceived Value, Perceived Harm: Economic Incentives and Bystander Intervention in Workplace Harassment</h3>
+          <p class="coauthors">with Livia Alfonsi, Lori Beaman, Anisha Sharma, and Karmini Sharma</p>
+          <p class="project-status">Data collection ongoing</p>
+        </article>
+
+        <article class="paper">
+          <h3>Women's Land Inheritance and Credit: Evidence from India</h3>
+          <p class="coauthors">with Vageesha Bainwala</p>
+        </article>
+      </section>
+
+      <section class="supplementary-section" id="grants" aria-labelledby="grants-heading">
+        <h2 id="grants-heading">Grants and Fellowships</h2>
+        <div class="grant"><span>Dissertation University Fellowship, Northwestern University</span><span class="grant-year">2026–2027</span></div>
+        <div class="grant"><span>International Dissertation Research Travel Grant, Buffett Institute for Global Affairs</span><span class="grant-year">2026</span></div>
+        <div class="grant"><span>Weiss Fund Piloting Grant (with Vasu Chaudhary)</span><span class="grant-year">2026</span></div>
+        <div class="grant"><span>Graduate Research Grant, Global Poverty Research Lab</span><span class="grant-year">2026</span></div>
+        <div class="grant"><span>PEDL Exploratory Research Grant (with Essoyodou Marie Laure Pello Sode and Mahniya Zafar)</span><span class="grant-year">2025</span></div>
+        <div class="grant"><span>Weiss Fund Exploratory Travel Grant (with Aaron Wolfe)</span><span class="grant-year">2025</span></div>
+        <div class="grant"><span>Graduate Research Grant, Global Poverty Research Lab</span><span class="grant-year">2024</span></div>
+      </section>
+
+      <section class="supplementary-section" id="teaching" aria-labelledby="teaching-heading">
+        <h2 id="teaching-heading">Teaching Experience</h2>
+        <div class="teaching-item">
+          <h3>The Economics of Developing Countries</h3>
+          <p>Teaching Assistant, Northwestern University</p>
+          <p>Fall 2024</p>
+        </div>
+        <div class="teaching-item">
+          <h3>Introduction to Microeconomics</h3>
+          <p>Teaching Assistant, Northwestern University</p>
+          <p>Fall 2022, Fall 2023</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- No separate script.js file is needed. -->
+  <script>
+    document.querySelectorAll('.toggle-button').forEach(function (button) {
+      button.addEventListener('click', function () {
+        const panel = document.getElementById(button.dataset.target);
+        const isOpen = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', String(!isOpen));
+        panel.hidden = isOpen;
+      });
+    });
+  </script>
 </body>
 </html>
